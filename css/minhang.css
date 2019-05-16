@@ -1,0 +1,126 @@
+body{
+    margin: 0;
+}
+.one{
+    margin-top: 3px;
+    height: 40px;
+    background: #3b8de3;
+}
+.two{
+    width: 1180px;
+    margin: auto;
+    height: 100%;
+}
+
+.left{
+    float: left;
+    width: 690px;
+}
+
+.right{
+    float: right;
+    position:relative ;
+}
+
+.left a{
+    float: left;
+    padding: 0 20px 0 20px;
+    line-height: 40px;
+    text-decoration: #75bee3;
+    color: #fff;
+    border-top-color: #f4a140;
+
+}
+
+.right a{
+    float: left;
+    padding: 0 20px 0 20px;
+    line-height: 38px;
+    text-decoration: #ff0000;
+    color: #fff;
+    background: rgb(11,133,223);
+}
+
+yh{
+    float: left;
+    margin: 0 0 0 0px;
+    line-height: 38px;
+    text-decoration: #ff0000;
+    color: #fff;
+}
+.sanjiao{
+    float: right;
+    width: 0;
+    height: 0;
+    border-top: 10px solid #fff;
+    border-left: 5px solid #3b8de3;
+    border-right: 5px solid #3b8de3;
+    position: absolute;
+    top:40%;left: 95%;
+}
+.sanjiao:hover{
+    float: right;
+    width: 0;
+    height: 0;
+    border-top: 10px solid #fff;
+    border-left: 5px solid #3b8de3;
+    border-right: 5px solid #3b8de3;
+    position: absolute;
+    top:40%;left: 95%;
+}
+.left a:hover{
+    background:#fff;
+    color:#3b8de3;
+    border-top: 3px solid;
+    line-height: 37px;
+    border-top-color: #f4a140;
+}
+.right a:hover{
+    background:rgb(11,120,199);
+    color:#fff;
+
+    border-top-color: #f4a140;
+}
+
+.touxiang{
+
+    background: url("../img/jl.png");
+    background-size: 20px;
+}
+
+.hot1{
+
+    width: 100%;
+    height: 34px;
+}
+.hot2{
+
+    height: 100%;
+    width: 1181px;
+    margin: auto;
+    position: relative;
+}
+.hot2 span{
+
+    left: 3px;
+    top: 5px;
+}
+
+.hot2 a{
+    color: #0055AA;
+    margin: 0 5px;
+    font-size: 12px;
+    text-decoration: #ff0000;
+}
+
+.lunbb{
+    width: 100%;
+    height: 380px;
+
+    overflow: hidden;
+}
+
+.lunbo{
+    object-fit:cover ;
+    margin-left: -180px;
+}
